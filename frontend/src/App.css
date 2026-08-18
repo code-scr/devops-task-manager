@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+.container {
+  max-width: 700px;
+  margin: 60px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+input {
+  flex: 1;
+  padding: 12px;
+  font-size: 16px;
+}
+
+button {
+  padding: 12px 20px;
+  cursor: pointer;
+}
+
+.task {
+  padding: 15px;
+  margin-bottom: 10px;
+  background: #f0f0f0;
+  border-radius: 6px;
+}
