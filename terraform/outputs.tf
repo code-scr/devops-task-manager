@@ -22,3 +22,7 @@ output "ecs_service_name" {
   description = "ECS service name"
   value       = aws_ecs_service.backend.name
 }
+output "frontend_bucket_name" {
+  description = "Frontend S3 bucket"
+  value       = aws_s3_bucket.frontend.bucket
+}
