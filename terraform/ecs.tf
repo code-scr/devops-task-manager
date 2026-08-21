@@ -99,6 +99,8 @@ resource "aws_ecs_service" "backend" {
 
   launch_type = "FARGATE"
 
+  enable_execute_command = true
+
   network_configuration {
     subnets = [
       aws_subnet.public_1.id,
